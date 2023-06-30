@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1| git and github Assignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+            box-sizing:border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        .container{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            background-color:#e2e2e2;
+        }
+        .login-container{
+            background-color:#fff;
+            box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+            height:40vh;
+            width:60vh;
+            border-radius:10px;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+        }
+        .login-container > h1{
+            font-size:1.75rem;
+        }
+        .input > input{
+            padding:10px 100px 10px 0px;
+            margin:10px 0px;
+            border-top:none;
+            border-left:none;
+            border-right:none;
+            outline:none;
+        }
+        .submit-button > button{
+            padding:10px 110px 10px 110px;
+            margin-top:20px;
+            color:#fff;
+            background-color:#5489e6;
+            border:none;
+            border-radius:7px;
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Creating a login page -->
+    <div class="container">
+        <div class="login-container">
+            <h1>Login</h1>
+            <div class="input">
+                <input type="text" name="Username" id="u-name" placeholder="Username">
+            </div>
+            <div class="input">
+                <input type="password" name="password" id="user-pass" placeholder="Password">
+            </div>
+            <div class="submit-button">
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

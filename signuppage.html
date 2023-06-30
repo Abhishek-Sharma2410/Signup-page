@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 2| git and github Assignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+            font-family: 'Poppins', sans-serif;
+        }
+        .container{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            background-color:#000000;
+        }
+        .signup-container{
+            background-color:#fff;
+            box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+            height:75vh;
+            width:50vh;
+            border-radius:10px;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            gap:20px;
+        }
+        #Batch-name{
+            padding:5px 140px 5px 0px;
+        }
+        .input >input{
+            padding:5px 100px 5px 0px;
+            outline:none;
+        }
+        .input > label{
+            display:block;
+        }
+        .signup-button > button{
+            padding:10px 110px 10px 110px;
+            margin-top:20px;
+            color:#fff;
+            background-color:#000000;
+            border:none;
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Creating a signup page -->
+    <div class="container">
+        <div class="signup-container">
+            <h1>Signup</h1>
+            <div class="input">
+                <label for="u-name">Name:</label>
+                <input type="text" name="Username" id="u-name">
+            </div>
+            <div class="input">
+                <label for="Batch-name">Batch:</label>
+                <select name="Batch-name" id="Batch-name">
+                    <option value="sigma 1.0">Sigma 1.0</option>
+                    <option value="sigma 2.0">Sigma 2.0</option>
+                    <option value="Data Science 1.0">Data Science 1.0</option>
+                    <option value="Data Science 2.0">Data Science 2.0</option>
+                    <option value="Java 1.0">Java 1.0</option>
+                    <option value="Java 2.0">Java 2.0</option>
+                </select>
+            </div>
+            <div class="input">
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age">
+            </div>
+            <div class="input">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="input">
+                <label for="user-pass">Password:</label>
+                <input type="password" name="password" id="user-pass">
+            </div>
+            <div class="signup-button">
+                <button type="submit">Signup</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
